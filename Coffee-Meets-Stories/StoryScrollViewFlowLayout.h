@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StoryScrollViewFlowLayout.h
 //  Coffee-Meets-Stories
 //
 //  Created by Arthur Tonelli on 3/28/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController 
-
+@interface StoryScrollViewFlowLayout : UICollectionViewFlowLayout
 
 @end
-

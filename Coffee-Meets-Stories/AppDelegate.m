@@ -7,16 +7,26 @@
 //
 
 #import "AppDelegate.h"
+#import "TeamManager.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
+
+
 
 @end
 
 @implementation AppDelegate
 
+@synthesize navigationController;
+@synthesize mainViewController;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[TeamManager sharedInstance] retrieveBundleInfo];
+    
     return YES;
 }
 
